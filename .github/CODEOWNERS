@@ -1,0 +1,36 @@
+# CODEOWNERS file for queue-manager-931
+# Global owners - will be requested for all PRs
+* @Armor-test/team-governance @Armor-test/unit-devops @Armor-test/dept-automation
+
+# Directory ownership
+/models/ @Armor-test/dept-data @Armor-test/dept-ui
+/middleware/ @Armor-test/grp-api @Armor-test/squad-cache @Armor-test/team-security
+/web/ @Armor-test/team-notifications @Armor-test/squad-performance
+/extensions/ @Armor-test/dept-logging @Armor-test/dept-automation @Armor-test/squad-mobile
+/utils/ @Armor-test/dept-identity @Armor-test/dept-automation @Armor-test/squad-database
+/examples/ @Armor-test/grp-ui @Armor-test/grp-api
+/plugins/ @Armor-test/unit-devops @Armor-test/grp-storage @Armor-test/unit-test
+/third_party/ @Armor-test/dept-billing @Armor-test/dept-data @Armor-test/team-research
+/ui/ @Armor-test/squad-qa @Armor-test/squad-cache
+/tests/ @Armor-test/squad-frontend @Armor-test/unit-test @Armor-test/dept-automation
+/config/ @Armor-test/squad-ux @Armor-test/squad-database
+/app/ @Armor-test/team-core @Armor-test/dept-reporting
+
+# File type ownership
+*.ts @Armor-test/dept-reporting @Armor-test/team-logging
+*.py @Armor-test/team-security @Armor-test/team-core @Armor-test/grp-payments
+*.css @Armor-test/dept-reliability @Armor-test/dept-identity
+*.xml @Armor-test/team-governance @Armor-test/squad-research @Armor-test/squad-api
+*.cs @Armor-test/dept-notifications @Armor-test/dept-automation @Armor-test/dept-billing
+*.tsx @Armor-test/team-core @Armor-test/squad-apps @Armor-test/team-governance
+*.html @Armor-test/grp-api @Armor-test/dept-data
+*.scss @Armor-test/team-research @Armor-test/unit-design @Armor-test/squad-mobile
+*.go @Armor-test/grp-api @Armor-test/team-research @Armor-test/squad-mobile
+*.rs @Armor-test/grp-ui @Armor-test/unit-devops
+*.js @Armor-test/unit-test @Armor-test/dept-reliability @Armor-test/squad-reporting
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
